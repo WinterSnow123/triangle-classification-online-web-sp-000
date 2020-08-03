@@ -9,6 +9,8 @@ def initialize(side_one, side_two, side_three)
 end
 
 def kind
+  if @side_one == @side_two && @side_two == @side_three
+    @equilateral = equilateral
 
 end
 
