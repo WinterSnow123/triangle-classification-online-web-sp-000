@@ -10,9 +10,8 @@ end
 
 def kind
   if @side_one == @side_two && @side_two == @side_three
-    @equilateral = equilateral
-
-end
+    :equilateral
+  end
 end
 
 class TriangleError < StandardError
