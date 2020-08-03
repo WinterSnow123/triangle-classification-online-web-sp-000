@@ -13,7 +13,7 @@ def kind
     begin
       raise TriangleError
     rescue TriangleError => error
-      error.message
+      puts error.message
     end
   end
   if @side_one == @side_two && @side_two == @side_three
