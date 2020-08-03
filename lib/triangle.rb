@@ -13,6 +13,7 @@ def kind
     @equilateral = equilateral
 
 end
+end
 
 class TriangleError < StandardError
 end
