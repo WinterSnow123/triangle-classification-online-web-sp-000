@@ -25,6 +25,9 @@ def kind
 end
 
 class TriangleError < StandardError
+  def message
+    "The lengths of your triangle's sides must all be greater than 0. The sum of two sides must always be greater than the third side."
+  end
 end
 
 end
